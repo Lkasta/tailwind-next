@@ -1,14 +1,17 @@
-
 export default function Home() {
   return (
-    <div className="p-8 bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-50 h-screen flex flex-col items-center text-center">
+    <div className="flex h-screen flex-col items-center bg-slate-50 p-8 text-center text-slate-900 dark:bg-slate-900 dark:text-slate-50">
       <div className="max-w-2xl">
-        <h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl">
+        <h1 className="text-3xl font-bold sm:text-4xl lg:text-5xl">
           Rapidly build modern websites without ever leaving your HTML.
         </h1>
-        <h1 className='mt-4 dark:text-slate-400'>A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.</h1>
+        <h1 className="mt-4 dark:text-slate-400">
+          A utility-first CSS framework packed with classes like flex, pt-4,
+          text-center and rotate-90 that can be composed to build any design,
+          directly in your markup.
+        </h1>
 
-        <button className="bg-sky-500 dark:sky-400 dark:text-sky-950 text-white px-4 py-2 rounded-md font-medium mt-4 enabled:hover:bg-sky-600 disabled:opacity-60 disabled:cursor-not-allowed">
+        <button className="dark:sky-400 mt-4 rounded-md bg-sky-500 px-4 py-2 font-medium text-white enabled:hover:bg-sky-600 disabled:cursor-not-allowed disabled:opacity-60 dark:text-sky-950">
           Sign in
         </button>
       </div>
